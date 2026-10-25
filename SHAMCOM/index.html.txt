@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHAMZO.COM</title>
+  <style>
+    body {
+      background-color: lightblue;
+    }
+
+    h1 {
+      color: red;
+    }
+button {
+  color: black;
+   }
+  </style>
+</head>
+<body>
+  <h1>SHAMZO.COM </h1>
+  <p>Bienvenue bienvenito welcome !</p> 
+ <button>taper dedans ya ton wé dedans  </button>
+ </body>
+ <script>
+  document.querySelector("button").addEventListener("click", function() {
+    alert("Bienvenue sur SHAMZO.COM !");
+  });
+</script>
